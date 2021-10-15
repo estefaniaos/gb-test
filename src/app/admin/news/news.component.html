@@ -1,0 +1,15 @@
+<div class="content">
+	<h2>News</h2>
+	<table class="table table-hover">
+		<thead>
+			<th>Title</th>
+			<th></th>
+		</thead>
+		<tbody>
+			<tr *ngFor="let new of news">
+				<td>{{ new.title }}</td>
+				<td><a href="#">View more</a></td>
+			</tr>
+		</tbody>
+	</table>
+</div>
